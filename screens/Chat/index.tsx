@@ -8,7 +8,7 @@ const Chat = () => {
   const [userMessage, setUserMessage] = useState('');
 
   // SSE
-  const OpenAIToken = '';
+  const OpenAIToken = process.env.EXPO_OPENAI_KEY;
 
   const handleNewMessage = useCallback(async () => {
 
