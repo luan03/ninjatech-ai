@@ -5,8 +5,8 @@ This project was bootstrapped with [Expo](https://expo.dev/).
 In the project directory, you can run:
 
 1. `npm install`
-
-2. `npm run ios`
+2. `update EXPO_PUBLIC_OPENAI_KEY inside .env file using a valid openai token`
+3. `npm run ios`
 
 3. then follow the prompts on screen to test the simulators.
 
