@@ -32,7 +32,7 @@ const Chat = () => {
             }
 
             {aiMessage &&
-              <View style={[styles.message, { backgroundColor: "white", }]}>
+              <View style={[styles.message, { backgroundColor: "#ffffff", }]}>
                 <Text>{aiMessage}</Text>
               </View>
             }
