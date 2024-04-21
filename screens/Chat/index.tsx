@@ -18,7 +18,7 @@ const Chat = () => {
           <View style={styles.messages}>
 
             {conversations &&
-              // TODO: A flatlist needs to replace this map to make the app more performant
+              // TODO: A flatlist might be useful in case this list starts become too large
               // Since we don't sort the list I'll use index as a key to my elements otherwise, we need to update the key to unique identifier
               conversations.map((conversation, index) => {
                 if (conversation.message === '') return;
