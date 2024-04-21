@@ -8,7 +8,7 @@ const Chat = () => {
   const [userMessage, setUserMessage] = useState('');
 
   // SSE
-  const OpenAIToken = 'sk-proj-dqG4nbHbLdkDIni8L10ST3BlbkFJsPrnc60F14Z964bEDowm';
+  const OpenAIToken = '';
 
   const handleNewMessage = useCallback(async () => {
 
