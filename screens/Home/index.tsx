@@ -1,6 +1,10 @@
 import { Text, TouchableOpacity, View, Image } from 'react-native';
 import { styles } from './style';
 
+/**
+ * Screen that shows a welcome page that guides the user to the Chat-UI
+ * @returns void
+ */
 const Home = ({ navigation }) => {
   return (
     <View style={styles.container}>

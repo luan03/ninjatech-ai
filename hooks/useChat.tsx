@@ -16,6 +16,8 @@ export const useChat = () => {
             return;
         }
 
+        // This package was essential to work with SSE and support stream because 
+        // a native implementation is not yet done by most libraries out there
         const es = new EventSource(
             API_URL,
             {
@@ -87,9 +89,6 @@ export const useChat = () => {
         };
 
     }, [userMessage]);
-
-
-
 
     return { handleNewMessage, conversations, aiMessage, userMessage, setUserMessage }
 }

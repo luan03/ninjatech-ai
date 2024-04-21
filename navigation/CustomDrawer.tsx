@@ -3,6 +3,7 @@ import { DrawerItemList } from '@react-navigation/drawer'
 import { useState } from 'react';
 import { styles } from './style';
 
+// In order to comply with the requirements, a custom drawer was implemented
 export default function CustomDrawer(props) {
 
     const [visible, setVisible] = useState(true);
